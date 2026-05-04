@@ -1,0 +1,154 @@
+# Java/Spring Boot
+*.class
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Gradle
+.gradle/
+build/
+!gradle-wrapper.jar
+.gradletasknamecache
+gradle/wrapper/gradle-wrapper.properties
+
+# Build outputs
+target/
+out/
+bin/
+
+# IDE - IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+.classpath
+.factorypath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VS Code
+.vscode/
+*.code-workspace
+
+# IDE - Eclipse
+.project
+.pydevproject
+.cproject
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - NetBeans
+nbproject/
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# Mac
+.DS_Store
+.AppleDouble
+.LSOverride
+*.swp
+*~.nib
+
+# Windows
+Thumbs.db
+
+# Environment variables & secrets - DO NOT COMMIT
+.env
+.env.local
+.env.*.local
+.env.*.example
+
+# Application properties with sensitive data - DO NOT COMMIT
+backend/src/main/resources/application.properties
+backend/src/main/resources/application-prod.properties
+backend/src/main/resources/application-dev.properties
+
+# JWT secrets and API keys - DO NOT COMMIT
+jwt.secret
+secret.properties
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+*.h2.db
+h2/
+
+# Node/npm/yarn (Frontend) - MUST IGNORE node_modules
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+pnpm-lock.yaml
+
+# Frontend build outputs
+frontend/dist/
+frontend/build/
+
+# Backend build outputs
+backend/build/
+backend/.gradle/
+backend/.gradle
+
+# Cache files
+*.cache
+.cache/
+.eslintcache
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*~
+
+# Logs
+logs/
+*.log
+log/
+
+# Coverage reports
+coverage/
+.coverage
+htmlcov/
+
+# Test reports
+test-results/
+reports/
+
+# Security keys and certificates - DO NOT COMMIT
+*.key
+*.keystore
+*.jks
+*.pfx
+*.pem
+.ssh/
+
+# Docker
+.docker/
+.dockerignore
+
+# Deployment
+.netlify/
+.vercel/
+
+# Runtime
+.run/
+.vscode-settings/
+
+# macOS specific
+.DS_Store
+.AppleDouble
+.LSOverride
